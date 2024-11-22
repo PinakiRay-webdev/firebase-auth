@@ -7,7 +7,7 @@ import { useForm } from "react-hook-form";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/ReactToastify.css";
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import {auth} from '../../utils/firebase/firebase'
+import { auth } from "../../utils/Firebase/firebase";
 const SignUp = () => {
   const {
     register,
